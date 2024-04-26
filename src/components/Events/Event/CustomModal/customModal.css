@@ -1,0 +1,59 @@
+.custom-modal {
+  background-color: black;
+  box-shadow: rgba(255, 255, 255, 0.8) 0 0 1000px 1000px;
+  max-width: 650px;
+  margin: auto;
+  padding: 50px;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.close-modal {
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+}
+
+form > div {
+  padding: 15px;
+}
+
+form > div > label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+form div input,
+select {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+form div button {
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+form ul {
+  list-style: none;
+}
+
+form ul li {
+  color: red;
+}/*# sourceMappingURL=customModal.css.map */

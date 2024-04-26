@@ -1,0 +1,77 @@
+.dodaj-dogadjaj-form {
+  margin: 2rem auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: #000;
+  border-radius: 150px;
+  padding: 4rem;
+  color: #fff;
+
+  form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    input,
+    select {
+      height: 2.4rem;
+      font-size: 1.5rem;
+      border-radius: 15px;
+      border: none;
+    }
+    p {
+      color: red;
+      font-size: 1rem;
+    }
+  }
+}
+.sacuvaj-dogadjaj-btn {
+  text-align: center;
+  margin-top: 1.5rem;
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+.charts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1650px) {
+  .form-group {
+    flex-direction: column;
+  }
+}
+@media (max-width: 750px) {
+  .dodaj-dogadjaj-form {
+    width: 85%;
+  }
+  .dodaj-dogadjaj-form {
+    label,
+    h1 {
+      font-size: 1.1rem;
+    }
+    .form-fields {
+      input,
+      select {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
