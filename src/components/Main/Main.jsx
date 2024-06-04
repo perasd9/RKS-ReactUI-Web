@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import { useNavigate } from "react-router-dom";
-import "./main.css";
+import "./main.scss";
 
 function Main() {
   const navigate = useNavigate();

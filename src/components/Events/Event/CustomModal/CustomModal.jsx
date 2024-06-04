@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./customModal.css";
+import "./customModal.scss";
 import axios from "axios";
 import { useCookies } from "react-cookie";
 

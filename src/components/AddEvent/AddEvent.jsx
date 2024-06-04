@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./addEvent.css";
+import "./addEvent.scss";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { useCookies } from "react-cookie";

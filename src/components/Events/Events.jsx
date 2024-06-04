@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Event from "./Event/Event";
-import "./events.css";
+import "./events.scss";
 import axios from "axios";
 
 function Events() {

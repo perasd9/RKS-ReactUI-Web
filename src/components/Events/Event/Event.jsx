@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./event.css";
+import "./event.scss";
 import CustomModal from "./CustomModal/CustomModal";
 
 function Event(props) {

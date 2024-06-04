@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/rectangle.png";
-import "./navbar.css";
+import "./navbar.scss";
 import { useCookies } from "react-cookie";
 
 function Navbar() {

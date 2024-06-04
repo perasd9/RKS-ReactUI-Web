@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./login.css";
+import "./login.scss";
 import axios from "axios";
 import loginPicture from "../../assets/login.jpg";
 import LoginForm from "./LoginForm/LoginForm";
